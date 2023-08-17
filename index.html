@@ -24,11 +24,11 @@
                       <img src="./images/fruit1.png" alt="fruit1.png" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
+
                       <h2 class="card-title">Anggur !!</h2>
-                      <p class="text-2xl font-bold mt-5">$ <span>50</span></p>
-                      <div class="card-actions">
-                        <button class="btn btn-primary">add to cart</button>
-                      </div>
+                      <p id="price" class="text-2xl font-bold mt-5">price: 50 $</p>
+                        <button onclick="getId(this)" class="btn btn-primary">add to cart</button>
+                     
                     </div>
                   </div>
                   <!-- card two -->
@@ -38,11 +38,11 @@
                       <img src="./images/fruit2.png" alt="fruit2.png" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
+
                       <h2 class="card-title">Komola !!</h2>
-                      <p class="text-2xl font-bold mt-5">$ <span>30</span></p>
-                      <div class="card-actions">
-                        <button class="btn btn-primary">add to cart</button>
-                      </div>
+                      <p id="price" class="text-2xl font-bold mt-5">price: 50 $</p>
+                      <button onclick="getId(this)" class="btn btn-primary">add to cart</button>
+                      
                     </div>
                   </div>
                   <!-- card three -->
@@ -52,17 +52,17 @@
                       <img src="./images/fruit3.png" alt="fruit3.png" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
+
                       <h2 class="card-title">Apple !!</h2>
-                      <p class="text-2xl font-bold mt-5">$ <span>60</span></p>
-                      <div class="card-actions">
-                        <button class="btn btn-primary">add to cart</button>
-                      </div>
+                      <p id="price" class="text-2xl font-bold mt-5">price: 50 $</p>
+                        <button onclick="getId(this)" class="btn btn-primary">add to cart</button>
+                     
                     </div>
                   </div>
                   <!-- card four -->
 
                 <div class="bg-base-100 mt-20 space-y-5 text-2xl font-extrabold ">
-                    <div>
+                    <div id="show-product-name">
                         <h2>Product Name:</h2>
                     </div>
                     <div>
@@ -76,5 +76,7 @@
             </div>
         </section>
     </main>
+
+    <script src="js/function.js"></script>
 </body>
 </html>
