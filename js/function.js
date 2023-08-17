@@ -1,4 +1,5 @@
 let priceTotal = 0;
+let discount = 20;
 
 function getId(target){
     
@@ -16,10 +17,14 @@ function getId(target){
      priceTotal = parseFloat(priceTotal) + parseFloat(price);
     
 
-   document.getElementById('price-total').innerText = priceTotal;
-   
+    const productPrice =   document.getElementById('price-total').innerText = priceTotal;
 
-    
+
+   const disCount = (productPrice * discount) / 100;
+   document.getElementById('discount').innerText = disCount;
+
+    const gandTotal = productPrice - disCount;
+    document.getElementById('grand-total').innerText = gandTotal;
      
     
 
